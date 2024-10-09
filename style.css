@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+}
+
+.boxes {
+    /* border: 2px solid pink; */
+    height: 300px;
+    width: 300px;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+}
+
+.box {
+    border: 5px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 1rem;
+}
+
+
+.red {
+    background-color: lightcoral;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.gameFlash {
+    background-color: white;
+}
+
+.userFlash {
+    background-color: pink;
+}
